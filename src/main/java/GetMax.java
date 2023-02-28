@@ -8,9 +8,9 @@ public class GetMax {
      */
     public int max(int[] arr){
         int max = arr[0];
-        for (int ktr = 0; ktr < arr.length; ktr++) {
-            if (arr[ktr] > max) {
-                max = arr[ktr];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
             }
         }
         return max;
